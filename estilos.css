@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:sans-serif;
 }
 
 /*------------ General ----------*/
@@ -11,6 +10,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .login-content{
@@ -52,6 +52,11 @@
     border-radius: 15px;
     padding:5px;
     margin: 10px 0;
+    transition: transform .3s;
+}
+
+.login-content__form-info input:hover{
+    transform:scale(1.1);
 }
 .login-content__form-button{
     background-color:  #3E1149;
@@ -61,11 +66,12 @@
     border: 1px solid  #3E1149;
     border-radius: 15px;
     padding:5px;
-    transition: transform 1s;
+    transition: transform .3s;
 }
 
 .login-content__form-button:hover{
     background-color: #541863 ;
+    transform:scale(1.1);
 }
 
 /*------------ social media  ----------*/
@@ -88,6 +94,11 @@
     color: #fff;
     border-radius: 10px;
     margin: 20px 20px; 
+    transition: transform .3s;
+}
+
+.login-content__icons button:hover{
+    transform: rotate(45deg);
 }
 
 .login-content__register-text2{
@@ -120,6 +131,16 @@
     text-align: center;
     padding-top:50px;
     font-size: 1.2rem;
+    animation: carouselText 4s linear;
+}
+
+@keyframes carouselText {
+    0%{
+        transform: translateY(80%);
+    }
+    100%{
+        transform: translateY(-5%);
+    }
 }
 
 /*------------ media querys ----------*/
