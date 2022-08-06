@@ -15,7 +15,6 @@
 
 .login-content{
     background: linear-gradient(to top, #fff, #E487FB, #000);
-    color:#fff;
 }
 
 /*------------ logo & mensaje ----------*/
@@ -23,12 +22,14 @@
 
 .login-content__logo{
     margin: 10px 0 0 10px;
+    color: #fff;
 }
 .login-content__message{
     display:flex;
     flex-direction:column;
     align-items:center;
     margin-top:20px;
+    color: #fff;
 }
 
 /*------------ Formulario ----------*/
@@ -39,6 +40,7 @@
     align-items: center;
     margin:50px auto;
     width: 60%;
+    color: #541863;
 }
 
 .login-content__form-info{
