@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+/*------------ General ----------*/
+
+.login-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.login-content{
+    background: linear-gradient(to top, #fff, #E487FB, #000);
+    color:#fff;
+}
+
+/*------------ logo & mensaje ----------*/
+
+
+.login-content__logo{
+    margin: 10px 0 0 10px;
+}
+.login-content__message{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:20px;
+}
+
+/*------------ Formulario ----------*/
+
+.login-content__form{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:50px auto;
+    width: 60%;
+}
+
+.login-content__form-info{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.login-content__form-info input{
+    border:none;
+    border-radius: 15px;
+    padding:5px;
+    margin: 10px 0;
+}
+.login-content__form-button{
+    background-color:  #3E1149;
+    color:#fff;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid  #3E1149;
+    border-radius: 15px;
+    padding:5px;
+    transition: transform 1s;
+}
+
+.login-content__form-button:hover{
+    background-color: #541863 ;
+}
+
+/*------------ social media  ----------*/
+
+
+.login-content__social-media{
+    text-align:center;
+}
+.login-content__icons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-content__icons button{
+    padding: 8px 12px;
+    border: 1px solid #fff;
+    background-color: #BCB1BF;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 20px; 
+}
+
+.login-content__register-text2{
+    color: #541863;
+    cursor: pointer;
+}
+
+/*------------ carousel ----------*/
+ 
+.login-carousel{
+    background-color:#3E1149;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    position:relative;
+}
+
+.cicle-style{
+    background-color: #E487FB;
+    position: absolute;
+    height:520px;
+    width:520px;
+    border-radius:50%;
+}
+
+.login-carousel__text{
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    padding-top:50px;
+    font-size: 1.2rem;
+}
+
+/*------------ media querys ----------*/
+
+@media (max-width:1090px){
+    .login-carousel{
+        display: none;
+    }
+    .login-info {
+        display: grid;
+        grid-template-columns: 100%;
+        height: 100vh;
+    }
+}

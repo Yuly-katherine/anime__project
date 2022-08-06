@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./estilos.css" />
+    <title>anime</title>
+  </head>
+  <body>
+    <div class="login-info">
+      <div class="login-content">
+        <section class="login-content__logo animate__animated animate__bounce">
+          <img src="./img/logo.png" alt="logo" />
+          <span>animeYabu.</span>
+        </section>
+        <section class="login-content__message">
+          <img src="./img/faces.png" alt="faces" />
+          <img src="./img/letters.png" alt="letters" />
+          <span>¡Hola, te extrañamos!</span>
+        </section>
+        <section>
+          <form class="login-content__form" action="">
+            <div class="login-content__form-info">
+              <label for="email">Email</label>
+              <input type="email" name="email" />
+            </div>
+            <div class="login-content__form-info">
+              <label for="constraseña">Contraseña</label>
+              <input type="password" name="contraseña" />
+            </div>
+            <button type="submit" class="login-content__form-button">
+              Acceder
+            </button>
+          </form>
+        </section>
+        <section class="login-content__social-media">
+          <span>Encuentranos en</span>
+          <div class="login-content__icons">
+            <button><i class="bi bi-instagram"></i></button>
+            <button><i class="bi bi-twitter"></i></button>
+            <button><i class="bi bi-facebook"></i></button>
+          </div>
+          <div class="login-content__register">
+            <span class="login-content__register-text1"
+              >Quieres registrarte?</span
+            >
+            <span
+              class="login-content__register-text2"
+            >
+              Registrate
+            </span>
+          </div>
+        </section>
+      </div>
+      <div class="login-carousel">
+        <div class="cicle-style"></div>
+        <section
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/option1.png" class="d-block w-80" alt="img1" />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/option2.png" class="d-block w-80" alt="img2" />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/option3.png" class="d-block w-80" alt="img3" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </section>
+        <div class="login-carousel__text">
+          <p>Ver anime en HD, subtitulado o doblado, en tu celular o computadora.¡AnimeYabu, tu portal de anime en línea!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
