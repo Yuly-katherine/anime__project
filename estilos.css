@@ -51,6 +51,7 @@
 
 .login-content__form-info input{
     border:none;
+    background-color: #fff;
     border-radius: 15px;
     padding:5px;
     margin: 10px 0;
